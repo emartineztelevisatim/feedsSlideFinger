@@ -1,0 +1,261 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9/10/2014, 12:08:40 PM
+    Author     : edgar.martinez
+*/
+
+.escaleta_content{
+    position:relative;
+    top:0px;
+    width: 99%;
+    height:750px;
+    border: solid 1px #aaa;
+    background-color: #F1F4F6;   
+}
+
+.escaleta_video{
+    position:relative; 
+    left:0%;
+    top: 73px;
+    width: 55%; 
+    height: 411px; 
+}
+
+.escaleta_feeds{
+    position: relative;
+    top: -345px;
+    left: 55%;
+    width: 45%;
+    height: 480px;
+/*    border: solid 1px #efefef;
+    background-color: #F1F4F6;*/
+}
+
+.escaleta_iframe{
+      width: 100%;
+      height: 100%; 
+}
+//------ 1000 X  ------------------
+@media screen and (max-width:1000px){
+    .escaleta_content{
+        position:relative;
+        top: 0px;
+        width: 100%;
+        height:600px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .escaleta_video{
+        position:relative; 
+        top: 0px;
+        left: 0%;
+        width: 100%; 
+        height: 350px; 
+
+    }
+}
+
+@media screen and (max-width:1000px){
+    .escaleta_feeds{
+        position:relative;
+        top: 0px;
+        left: 0%;
+        width: 100%; 
+        height:278px; 
+    }
+}
+
+@media screen and (max-width:1000px){
+  .escaleta_iframe{
+      width: 100%;
+      height: 100%;
+    }  
+}
+
+
+//------ 768 X  ------------------
+@media screen and (max-width:768px){
+    .escaleta_content{
+        position:relative;
+        top:130px;
+        width: 99%;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .escaleta_video{
+        position:relative; 
+        top: 0%;
+        left: 0%;
+        width: 100%; 
+        height:300px; 
+    }
+} 
+
+@media screen and (max-width:768px){
+    .escaleta_feeds{
+        position:relative;
+        top:0px;
+        left: 0%;
+        width: 97%; 
+        height:340px; 
+    }
+}
+
+@media screen and (max-width:768px){
+  .escaleta_iframe{
+      width: 100%;
+      height: 100%;
+    }  
+}
+
+//------ 640 X  ------------------
+@media screen and (max-width:640px){
+    .escaleta_content{
+        position:relative;
+        top:200px;
+        width: 99%;
+        height:600px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .escaleta_video{
+        position:relative; 
+        top:0px;
+        left: 0%;
+        width: 100%; 
+        height:300px; 
+    }
+} 
+
+@media screen and (max-width:640px){
+    .escaleta_feeds{
+        position:relative;
+        top:0px;
+        left: 0%;
+        width: 97%; 
+        height:340px;  
+    }
+}
+
+@media screen and (max-width:640px){
+    
+  .escaleta_iframe{
+      width: 100%;
+      height: 100%; 
+    }  
+}
+//------ 480 X  ------------------
+@media screen and (max-width:480px){
+    .escaleta_video{
+        position:relative; 
+        top:0px;
+        left: 0%;
+        width: 100%; 
+        height:200px; 
+    }
+}
+@media screen and (max-width:480px){
+    .escaleta_feeds{
+        position:relative;
+        top:0px;
+        left: 0%;
+        width: 96%; 
+        height:412px;  
+    }
+}
+@media screen and (max-width:480px){
+  .escaleta_iframe{
+      width: 100%;
+      height: 100%; 
+    }  
+}
+
+//---------- 375 X  ----------------
+
+@media screen and (max-width:375px){
+    .escaleta_video{
+        position:relative; 
+        top:30px;
+        left:0%;
+        width:100%; 
+        height:200px; 
+    }
+}
+@media screen and (max-width:375px){
+    .escaleta_feeds{
+        position:relative;
+        top: 0px;
+        left: 0%;
+        width:97%; 
+        height: 414px;  
+    }
+}
+@media screen and (max-width:375px){
+  .escaleta_iframe{
+      width: 100%;
+      height: 100%;  
+    }  
+}
+
+.new-description {
+    font-family:Arial;
+    font-size:13px;
+    position:absolute;
+    top:10px;
+    left:100px;
+    text-align: justify;
+}
+
+.img-circle{
+   width: 80px;
+   height: 50px;
+}
+
+.melemento {
+    position: relative;
+    height:16%; 
+    width: 40%; 
+    margin: 1px 0px 0px 10px; 
+    cursor: pointer;
+    background-color:#fff; 
+    border:1px solid #2e8fca;
+    display:block;
+    padding:5px 50% 15px 5px;
+  
+}
+
+.melemento:hover{
+    position: relative;
+    height:16%; 
+    width: 45%; 
+    margin: 6px 0px 3px 2.7%; 
+    cursor: pointer;
+    background-color:#fff; 
+    border:2px solid #2e8fca;
+    display:block;
+    padding:5px 50% 15px 5px;    
+}
+
+.redes{
+    position: absolute;
+    top:56px;
+    left:5px;
+/*    background-image: url("../img/redes01.png");
+    background-repeat: no-repeat;*/
+}
+
+.dataVideo{
+    position: absolute;
+    bottom:1px;
+    right:10px;
+    font-size: 12px;
+    color:#444;
+}
